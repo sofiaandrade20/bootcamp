@@ -18,7 +18,7 @@ import java.util.Set;
 @Builder
 @Entity
 @Table(name = "hero")
-public class Hero {
+public class    Hero {
     //Id creation
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

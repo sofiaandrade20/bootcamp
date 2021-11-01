@@ -24,10 +24,10 @@ public class CountryController {
     }
 
     //Get country by id
-    @GetMapping("/get-CountriesById/{id}")
-    public Country getCountryById(@PathVariable(value = "id") Long id) {
-        return countryService.findById(id);
-    }
+        @GetMapping("/get-CountriesById/{id}")
+        public Country getCountryById(@PathVariable(value = "id") Long id) {
+            return countryService.findById(id);
+        }
 
     //Create country
     @PostMapping(value = "/create-Countries")
